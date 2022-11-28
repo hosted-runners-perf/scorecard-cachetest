@@ -38,11 +38,11 @@ jobs:
        with:
          egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -70,11 +70,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -105,11 +105,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -139,11 +139,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -174,11 +174,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -209,11 +209,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -244,11 +244,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -279,11 +279,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -314,11 +314,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -349,11 +349,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -384,11 +384,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -419,11 +419,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -454,11 +454,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -489,11 +489,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -524,11 +524,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -558,11 +558,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -581,11 +581,11 @@ jobs:
        with:
          egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -615,11 +615,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -649,11 +649,11 @@ jobs:
         version: ${{ env.PROTOC_VERSION }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
      - name: Clone the code
-       uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
+       uses: actions/checkout@v3
        with:
           fetch-depth: 0
      - name: Setup Go
-       uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+       uses: actions/setup-go@v3
        with:
          go-version: ${{ env.GO_VERSION }}
          check-latest: true
@@ -677,8 +677,8 @@ jobs:
         with:
           egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
 
-      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v2.3.4
-      - uses: actions/setup-go@c4a742cab115ed795e34d4513e2cf7d472deb55f # v2.2.0
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v3
         with:
           go-version: ${{ env.GO_VERSION }}
           check-latest: true
