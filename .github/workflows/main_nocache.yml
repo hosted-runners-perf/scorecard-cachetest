@@ -20,7 +20,7 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/10 * * * *"
 
 env:
   PROTOC_VERSION: 3.17.3
